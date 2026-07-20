@@ -22,31 +22,31 @@ This project demonstrates a complete web application vulnerability assessment us
 
 ### 1. Initializing the Nessus Scanner Daemon
 Verified the service status of `nessusd` on the Ubuntu virtual machine using `systemctl` to ensure the scanning engine was fully active and listening for local management connections.
-> ![Nessus Service Active](01-nessus-status.png)
+> ![Nessus Service Active](images/01-nessus-status.png)
 
 ### 2. Spinning Up the DVWA Target Environment
 Started the Docker daemon service to host the target web application (DVWA) in an isolated local container environment.
-> ![Docker Service Active](02-docker-dvwa.png)
+> ![Docker Service Active](images/02-docker-dvwa.png)
 
 ### 3. Accessing the Target Web Application
 Navigated to `http://127.0.0.1/index.php` using Firefox to verify that DVWA was fully functional and ready for security testing.
-> ![DVWA Target Interface](03-dvwa-interface.png)
+> ![DVWA Target Interface](images/03-dvwa-interface.png)
 
 ### 4. Accessing the Nessus Management Interface
 Opened the web dashboard on port `8834` (`https://192.168.117.129:8834`) to manage and monitor scanning activities.
-> ![Nessus Dashboard](04-nessus-dashboard.png)
+> ![Nessus Dashboard](images/04-nessus-dashboard.png)
 
 ### 5. Configuring the Scan Policy
 Selected the **Basic Network Scan** policy from the Nessus template library to perform host discovery and vulnerability identification on the target machine.
-> ![Nessus Scan Templates](05-scan-policy.png)
+> ![Nessus Scan Templates](images/05-scan-policy.png)
 
 ### 6. Executing the Vulnerability Scan
 Launched the scan targeting the local web host and monitored real-time progress as Nessus probed the application for active flaws.
-> ![Scan in Progress](06-scan-progress.png)
+> ![Scan in Progress](images/06-scan-progress.png)
 
 ### 7. Scan Completion & Vulnerability Discovery
 Completed the 13-minute assessment cycle, which successfully uncovered **56 vulnerabilities** categorized across various severity levels for analysis.
-> ![Scan Completion Summary](07-scan-results.png)
+> ![Scan Completion Summary](images/07-scan-results.png)
 
 ---
 
