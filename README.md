@@ -22,7 +22,7 @@ This project demonstrates a complete web application vulnerability assessment us
 
 ### 1. Initializing the Nessus Scanner Daemon
 Verified the service status of `nessusd` on the Ubuntu virtual machine using `systemctl` to ensure the scanning engine was fully active and listening for local management connections.
-> ![Nessus Service Active](images/01-nessus-status.png)
+> ![Nessus Service Active](images/01-nessus-status-active.png)
 
 ### 2. Spinning Up the DVWA Target Environment
 Started the Docker daemon service to host the target web application (DVWA) in an isolated local container environment.
