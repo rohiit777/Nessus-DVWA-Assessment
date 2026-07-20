@@ -5,7 +5,6 @@
 This project demonstrates a complete web application vulnerability assessment using Tenable Nessus Essentials. The objective was to deploy the Nessus scanner service on an Ubuntu system, target a locally hosted instance of Damn Vulnerable Web Application (DVWA), and execute a comprehensive scan to discover security flaws.
 
 ## 💻 Lab Environment
-* **Host Machine:** Intel Core i5 11th Gen, 16GB RAM, GTX 1650
 * **Vulnerability Scanner:** Tenable Nessus Essentials (v19.18.1)
 * **Scanning OS:** Ubuntu Linux running on VMware
 * **Target Application:** Damn Vulnerable Web Application (DVWA) running in Docker (`127.0.0.1`)
