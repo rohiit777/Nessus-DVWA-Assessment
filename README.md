@@ -37,22 +37,26 @@ Navigated to `http://127.0.0.1/index.php` using Firefox to verify that DVWA was 
 
 ### 4. Accessing the Nessus Management Interface
 Opened the web dashboard on port `8834` (`https://192.168.117.129:8834`) to manage and monitor scanning activities.
-> <img width="1707" height="970" alt="4-nessus-dashboard" src="https://github.com/user-attachments/assets/48fb85f9-a810-4aff-bf65-f25289f1d356" />
+<img width="1714" height="956" alt="Screenshot 2026-07-18 164125" src="https://github.com/user-attachments/assets/80b92e72-1f2d-41c2-8a84-642168c32ec0" />
+
 
 
 ### 5. Configuring the Scan Policy
 Selected the **Basic Network Scan** policy from the Nessus template library to perform host discovery and vulnerability identification on the target machine.
-> <img width="1715" height="959" alt="5-scan-policy" src="https://github.com/user-attachments/assets/5dd9670d-022e-4eb1-9833-1c7cfd5eb0f4" />
+<img width="1715" height="959" alt="5-scan-policy" src="https://github.com/user-attachments/assets/56c72c6d-a2f3-4a3a-8c48-fda16a3c45a3" />
+
 
 
 ### 6. Executing the Vulnerability Scan
 Launched the scan targeting the local web host and monitored real-time progress as Nessus probed the application for active flaws.
-> <img width="1719" height="959" alt="6-scan-running" src="https://github.com/user-attachments/assets/dba0ae5f-18f1-4e66-985c-a3df7ec19679" />
+<img width="1719" height="959" alt="6-scan-running" src="https://github.com/user-attachments/assets/b6081f1b-781c-4302-99ee-7b3b613d1dfd" />
+
 
 
 ### 7. Scan Completion & Vulnerability Discovery
 Completed the 13-minute assessment cycle, which successfully uncovered **56 vulnerabilities** categorized across various severity levels for analysis.
-> <img width="1715" height="965" alt="7-scan-completed" src="https://github.com/user-attachments/assets/84a227d8-5089-4799-a77e-f0c2e199f1a0" />
+<img width="1715" height="965" alt="7-scan-completed" src="https://github.com/user-attachments/assets/9906b839-02dd-4073-8c0a-7eb260b071e3" />
+
 
 
 ---
